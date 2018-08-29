@@ -1,14 +1,13 @@
-'''
 网店工商信息图片文字提取
 @Hypo
 2018-06-18
-'''
-#1 Prerequisites
+
+# 1 Prerequisites
 * 1.Ubuntu 18.x
 * 2.Python 3.x
 * 3.I3 4130 with 4GB RAM or above
 
-#2 Easy Installation
+# 2 Easy Installation
 * 1.Copy this file to '\home'
 * 2.Install xlwt
 * 3.Install Tesseract
@@ -20,7 +19,7 @@ sudo apt install tesseract-ocr
 sudo cp ocr_hypo/model/{chi_sim_best.traineddata,chi_sim_fast.traineddata} /usr/share/tesseract-ocr/4.00/tessdata/
 ```
 
-#3 Run
+# 3 Run
 * 1.Copy images for testing to '天猫工商信息执照'
 * 2.Run 'ocr.py':
 ```shell
