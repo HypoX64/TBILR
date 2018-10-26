@@ -13,17 +13,18 @@
 * 3.Install Tesseract
 * 4.Copy Tesseract pre_train model to '/usr/share/tesseract-ocr/4.00/tessdata'
 ```shell
+git clone https://github.com/HypoX64/TBILR
 sudo apt install python3-pip
 sudo pip3 install xlwt
 sudo apt install tesseract-ocr
-sudo cp ocr_hypo/model/{chi_sim_best.traineddata,chi_sim_fast.traineddata} /usr/share/tesseract-ocr/4.00/tessdata/
+sudo cp TBILR/model/{chi_sim_best.traineddata,chi_sim_fast.traineddata} /usr/share/tesseract-ocr/4.00/tessdata/
 ```
 
 # 3 Run
 * 1.Copy images for testing to '天猫工商信息执照'
 * 2.Run 'ocr.py':
 ```shell
-cd ocr_hypo
+cd TBILR
 python3 ocr.py
 ```
 # 4 Result
